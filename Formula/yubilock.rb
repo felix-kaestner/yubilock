@@ -2,9 +2,9 @@ class Yubilock < Formula
   desc "Automatically lock macOS when a YubiKey is detached"
   homepage "https://github.com/felix-kaestne/yubilock"
 
-  url "https://github.com/felix-kaestner/yubilock.git",
-      # tag:      "v0.0.1",
-      revision: "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+  url "https://github.com/felix-kaestner/yubilock.git", # url "ssh://git@github.com/felix-kaestner/yubilock.git"
+      tag:      "v0.0.1",
+      revision: "da6bbddb6d2085a86d6603be551d593eed9c0b9f"
 
   license "MIT"
 
