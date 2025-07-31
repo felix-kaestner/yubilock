@@ -3,8 +3,8 @@ class Yubilock < Formula
   homepage "https://github.com/felix-kaestne/yubilock"
 
   url "https://github.com/felix-kaestner/yubilock.git", # url "ssh://git@github.com/felix-kaestner/yubilock.git"
-      tag:      "v0.0.1",
-      revision: "da6bbddb6d2085a86d6603be551d593eed9c0b9f"
+      tag:      "v0.0.2",
+      revision: "5a082bca3d88d69c8e1a323b5a23a6c08f1ddef0"
 
   license "MIT"
 
