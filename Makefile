@@ -17,6 +17,12 @@ $(OUT): $(SRCS)
 fmt:
 	clang-format -i $(SRCS)
 
+run: $(OUT)
+	./$(OUT)
+
+dev:
+	echo $(SRCS) | entr -rc make -s run
+
 clean:
 	rm -f $(OUT)
 
