@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: macos-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build binary
+        run: make
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: yubilock
+          generate_release_notes: true
+          draft: false
+          prerelease: false
