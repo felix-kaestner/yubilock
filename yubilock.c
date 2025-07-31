@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define YUBIKEY_NAME "YubiKey"
-#define CHECK_INTERVAL 2
+#define CHECK_INTERVAL 1
 #define HELP_TEXT                                                              \
   "yubilock - Lock macOS on YubiKey detachment.\n"                             \
   "\n"                                                                         \
